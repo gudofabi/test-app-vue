@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>You son of bitch!</h1>
+    <h1>List of todos:</h1>
     <div class="Todos">
       <ul v-for="todo in allTodos" :key="todo.id">
         <li>{{ $lodash.capitalize(todo.title) }}</li>
